@@ -5,7 +5,7 @@ const commonInterface = {
 }
 
 export const main = Reach.App(() => {
-  
+
   const Owner = Participant('Owner', {
     // Specify Creator interact interface here..............................
     ...commonInterface,
